@@ -15,7 +15,7 @@ It includes:
 {
   "version": "0.1.0",
   "download_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/releases/nunaBase-0.1.0.zip",
-  "details_url": "https://github.com/nunaMaster/distribution/nunaBase/releases/tag/v0.1.0",
+  "details_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/CHANGELOG.md",
   "changelog": [
     "📝 Human-readable bullet list of changes"
   ]
