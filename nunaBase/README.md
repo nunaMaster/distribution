@@ -9,14 +9,14 @@ It includes:
 
 ---
 
-## 📦 version.json Structure
+# 🎯 nunaBase theme releases
 
-```json
-{
-  "version": "0.1.0",
-  "download_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/releases/nunaBase-0.1.0.zip",
-  "details_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/CHANGELOG.md",
-  "changelog": [
-    "📝 Human-readable bullet list of changes"
-  ]
-}
+Each release must follow these steps:
+
+1. 🧰 Check that the zip is generated.
+2. 📝 Update `CHANGELOG.md` with a short summary of changes.
+3. 📦 Update `version.json` with:
+   - New version number
+   - Public ZIP URL
+   - Changelog (bullet points)
+
