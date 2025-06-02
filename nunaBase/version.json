@@ -1,8 +1,12 @@
 {
-  "version": "0.1.2",
-  "download_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/releases/nunaBase-0.1.2.zip",
-  "details_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/CHANGELOG.md",
-  "changelog": [
-    "🔧 Relase version test"
-  ]
+	"version": "0.1.3",
+	"download_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/releases/nunaBase-0.1.3.zip",
+	"details_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/CHANGELOG.md",
+	"changelog": [
+		"✨ Added Header Overlay Panel and Modal component",
+		"📱 Introduced Action Bar for mobile with contact and booking",
+		"🎨 Enhanced header, footer, and content styling",
+		"🛠 Refactored header and modal templates for consistency",
+		"♿ Improved accessibility and semantic HTML structure"
+	]
 }
