@@ -1,12 +1,14 @@
 {
-	"version": "0.1.3",
-	"download_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/releases/nunaBase-0.1.3.zip",
+	"version": "0.1.4",
+	"download_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/releases/nunaBase-0.1.4.zip",
 	"details_url": "https://raw.githubusercontent.com/nunaMaster/distribution/main/nunaBase/CHANGELOG.md",
 	"changelog": [
-		"✨ Added Header Overlay Panel and Modal component",
-		"📱 Introduced Action Bar for mobile with contact and booking",
-		"🎨 Enhanced header, footer, and content styling",
-		"🛠 Refactored header and modal templates for consistency",
-		"♿ Improved accessibility and semantic HTML structure"
+		"🧱 Added Section Builder for flexible content blocks",
+		"🎨 Updated card and room layouts with responsive styling",
+		"🛠 Refactored SCSS structure and improved asset handling",
+		"🌐 Added translation support for dynamic CTA labels",
+		"♿ Enhanced accessibility and semantic HTML",
+		"🧩 Introduced layout/view options for Rooms via ACF",
+		"📦 Added custom skins and reset control in Customizer"
 	]
 }
