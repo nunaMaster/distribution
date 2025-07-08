@@ -2,6 +2,64 @@
 
 All notable changes to this theme will be documented here.
 
+## [0.1.5] – 2025-07-08
+
+### ✨ New Features
+
+-   **SEO & Sitemap Integration:**
+    Implemented SEO settings panel, JSON-LD structured data rendering, and a custom XML sitemap with multi-language support.
+-   **Flexible Hero Section:**
+    Refactored Hero section with improved structure, new flexible content fields, and enhanced component management.
+-   **Header Scroll Effect:**
+    Added new smooth scroll activation logic to header using `requestAnimationFrame`.
+-   **Shortcodes for Editors:**
+    Registered new shortcodes (e.g., site name) for use inside WYSIWYG content.
+-   **Hotel Advantages Options Page:**
+    Created new ACF field group and options page for hotel advantages using flexible content layout.
+
+### 🖼️ Image & Icon Enhancements
+
+-   **WebP Optimization:**
+    Enhanced image handling with automatic conversion to WebP format and updated image size settings.
+-   **Picture Element Support:**
+    Added `<picture>` selectors for cards and rooms to improve responsive image loading.
+-   **SVG Icons Update:**
+    Added multiple new outline and solid icons for features (e.g., TV, WiFi, Room Size, Pets Allowed).
+-   **Accessibility Improvements:**
+    Updated icons for better screen reader support and visual consistency.
+
+### 🎨 Style & SCSS Refactors
+
+-   **Spacing Consistency:**
+    Replaced all uses of `--baseline` with `--space` across SCSS for consistent spacing.
+-   **Updated Variables & Colors:**
+    Refined SCSS variables for room gaps, color usage, and layout adjustments.
+-   **Component Styling:**
+    -   Updated button styles (hover, active states)
+    -   Enhanced header styling with logo filters and transitions
+    -   Adjusted footer grid layout and background opacity
+    -   Improved responsiveness across header and footer components
+
+### 🛠 Code Improvements & Refactors
+
+-   **Modular Templates:**
+    Refactored multiple section templates to use flexible content components for better maintainability.
+-   **Enqueue Logic:**
+    Improved Vite manifest handling in `enqueue-assets.php`. Now uses `nuna_hotel_id` instead of `hotel_id`.
+-   **Markup Cleanups:**
+    -   Consolidated footer address display logic
+    -   Removed unused image styles in Hero section
+    -   Updated booking engine ID references in header & hero
+    -   Renamed "Hotel Info" to "Information" in menu config
+    -   Added translations for booking CTA and footer menu items
+
+### 🔗 Dependencies & Assets
+
+-   **Icons:**
+    Added outline and solid icon sets for common amenities and contact information.
+-   **SVG & Asset Management:**
+    Centralized icon imports, optimized asset loading performance.
+
 ## [0.1.4] - 2025-06-23
 
 ### ✨ New Features
